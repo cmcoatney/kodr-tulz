@@ -19,7 +19,10 @@
           "apps/generator/src/favicon.ico",
           "apps/generator/src/assets"
         ],
-        "styles": ["apps/generator/src/styles.scss"],
+        "styles": [
+          "apps/generator/src/styles.scss",
+          "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+        ],
         "scripts": []
       },
       "configurations": {

@@ -1,0 +1,26 @@
+@import '@angular/material/prebuilt-themes/indigo-pink';
+
+
+.container {
+    display: grid;
+    width: 100vw;
+    align-items: center;
+    justify-items: cener;
+}
+
+.form {
+    display: grid;
+    width: 600px;
+    place-items: center;
+    border: 1px red solid;
+}
+
+pre {
+    background-color: mediumslateblue;
+    color: navajowhite;
+    padding: 10px;
+    margin-left: 25px;
+    width: 60vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

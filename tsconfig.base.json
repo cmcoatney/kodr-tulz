@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@rapid-prototyping/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@rapid-prototyping/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@rapid-prototyping/generators": ["libs/generators/src/index.ts"],
+      "@rapid-prototyping/material": ["libs/material/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
