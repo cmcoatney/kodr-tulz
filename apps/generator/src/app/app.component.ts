@@ -74,7 +74,7 @@ const albumSchema: Schema = {
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  test="this\nis\nit"
+ 
   on = false;
 
   form = new FormGroup({});

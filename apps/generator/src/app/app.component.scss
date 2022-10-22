@@ -1,11 +1,23 @@
 @import '@angular/material/prebuilt-themes/indigo-pink';
 
-
 .container {
     display: grid;
-    width: 100vw;
-    align-items: center;
-    justify-items: cener;
+    grid-template-columns: 1fr minmax(150px, 20%);
+    height: 100px;
+}
+
+main,
+aside {
+    padding: 12px;
+    
+}
+
+main {
+    background: #d4f2c4;
+}
+
+aside {
+    background: #81cfd9;
 }
 
 .form {
